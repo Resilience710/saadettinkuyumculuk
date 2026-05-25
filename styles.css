@@ -152,19 +152,28 @@ h3 { font-size: 1.25rem; }
 .hero-slide::before {
   content: '';
   position: absolute; inset: 0;
-  background:
-    linear-gradient(120deg, rgba(122,31,36,0.92) 0%, rgba(94,20,24,0.78) 50%, rgba(26,10,12,0.55) 100%),
-    radial-gradient(circle at 75% 30%, rgba(168,50,58,0.55), transparent 60%);
+  background: linear-gradient(
+    to right,
+    rgba(94,20,24,0.88) 0%,
+    rgba(122,31,36,0.65) 45%,
+    rgba(26,10,12,0.25) 100%
+  );
 }
 .hero-slide:nth-child(2)::before {
-  background:
-    linear-gradient(120deg, rgba(26,10,12,0.85) 0%, rgba(122,31,36,0.7) 60%, rgba(168,50,58,0.5) 100%),
-    radial-gradient(circle at 20% 70%, rgba(255,255,255,0.08), transparent 50%);
+  background: linear-gradient(
+    to right,
+    rgba(26,10,12,0.82) 0%,
+    rgba(94,20,24,0.60) 45%,
+    rgba(26,10,12,0.20) 100%
+  );
 }
 .hero-slide:nth-child(3)::before {
-  background:
-    linear-gradient(45deg, rgba(94,20,24,0.9), rgba(122,31,36,0.6)),
-    radial-gradient(circle at 50% 50%, rgba(168,50,58,0.5), transparent 70%);
+  background: linear-gradient(
+    to right,
+    rgba(94,20,24,0.80) 0%,
+    rgba(122,31,36,0.55) 45%,
+    rgba(26,10,12,0.15) 100%
+  );
 }
 
 .hero-content {
@@ -279,8 +288,9 @@ h3 { font-size: 1.25rem; }
   aspect-ratio: 3 / 4;
   background-image: var(--img), linear-gradient(135deg, #2a0d10, var(--red));
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   transition: transform .6s ease;
+  overflow: hidden;
 }
 .cat-card:hover .cat-img { transform: scale(1.06); }
 .cat-card h3 {
