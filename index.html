@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sadettin Kuyumculuk & Pırlanta · 1943</title>
+  <meta name="description" content="1943'ten bu yana Malatya'nın güvenilir kuyumcusu. Altın, pırlanta, yüzük, kolye, küpe, bileklik ve set takımları." />
+  <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>📍 Malatya Park AVM · Koçak Pırlanta Satış Noktası</span>
+      <span class="topbar-right">
+        <a href="tel:+904223232336">☎ 0422 323 23 36</a>
+        <a href="https://www.instagram.com/sadettinkuyumculuk/" target="_blank" rel="noopener">Instagram</a>
+      </span>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <img src="assets/logo.svg" alt="Sadettin Kuyumculuk" />
+      </a>
+      <nav class="nav-links">
+        <a href="#kategoriler">Ürünler</a>
+        <a href="#kampanya">Kampanyalar</a>
+        <a href="#pirlanta">Pırlanta</a>
+        <a href="#hakkimizda">Hakkımızda</a>
+        <a href="#iletisim">İletişim</a>
+      </nav>
+      <div class="nav-icons">
+        <button aria-label="Ara">🔍</button>
+        <button aria-label="Hesabım">👤</button>
+        <button aria-label="Sepet">🛍</button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menü">☰</button>
+    </div>
+    <nav class="mobile-menu" id="mobileMenu">
+      <a href="#kategoriler">Ürünler</a>
+      <a href="#kampanya">Kampanyalar</a>
+      <a href="#pirlanta">Pırlanta</a>
+      <a href="#hakkimizda">Hakkımızda</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Campaign -->
+  <section class="hero" id="kampanya">
+    <div class="hero-slider">
+      <div class="hero-slide active">
+        <div class="hero-content container">
+          <span class="eyebrow">Yeni Sezon · 2026</span>
+          <h1>Her Parıltı<br/>Bir Hikâye</h1>
+          <p>1943'ten bu yana ustalıkla işlenen pırlanta ve altın koleksiyonumuzla unutulmaz anlarınıza eşlik ediyoruz.</p>
+          <div class="hero-actions">
+            <a href="#kategoriler" class="btn btn-primary">Koleksiyonu Keşfet</a>
+            <a href="#iletisim" class="btn btn-ghost">Mağazayı Ziyaret Et</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-content container">
+          <span class="eyebrow">Özel Kampanya</span>
+          <h1>Pırlanta Set Takımlarda<br/>Özel Avantaj</h1>
+          <p>Seçili pırlanta set takımlarında size özel ödeme kolaylığı ve hediye seçenekleri ile.</p>
+          <div class="hero-actions">
+            <a href="#pirlanta" class="btn btn-primary">Detayları Gör</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-slide">
+        <div class="hero-content container">
+          <span class="eyebrow">Bilezik Koleksiyonu</span>
+          <h1>Geleneksel Zarafet<br/>Modern Dokunuş</h1>
+          <p>El işçiliği bilezik ve bileklik modellerimizle stilinize zenginlik katın.</p>
+          <div class="hero-actions">
+            <a href="#kategoriler" class="btn btn-primary">İncele</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-dots">
+      <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+      <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+      <button class="dot" data-slide="2" aria-label="Slide 3"></button>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="trust-strip">
+    <div class="container trust-grid">
+      <div class="trust-item"><span>✓</span><div><strong>1943'ten beri güven</strong><small>3 nesil ustalık</small></div></div>
+      <div class="trust-item"><span>◆</span><div><strong>Sertifikalı pırlanta</strong><small>GIA & IGI sertifikalı</small></div></div>
+      <div class="trust-item"><span>⟳</span><div><strong>Değişim & garanti</strong><small>Ömür boyu servis</small></div></div>
+      <div class="trust-item"><span>♥</span><div><strong>Özel tasarım</strong><small>Size özel üretim</small></div></div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section" id="kategoriler">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow dark">Koleksiyonlar</span>
+        <h2>Kategoriler</h2>
+        <p>Her tarza ve her ana özel, özenle hazırlanmış koleksiyonlarımızı keşfedin.</p>
+      </div>
+
+      <div class="categories">
+        <a href="#" class="cat-card" style="--img:url('fotoğraflar/yuzukler.jpg')">
+          <div class="cat-img"></div>
+          <h3>Yüzükler</h3>
+          <span>Keşfet →</span>
+        </a>
+        <a href="#" class="cat-card" style="--img:url('fotoğraflar/kolyeler.jpg')">
+          <div class="cat-img"></div>
+          <h3>Kolyeler</h3>
+          <span>Keşfet →</span>
+        </a>
+        <a href="#" class="cat-card" style="--img:url('fotoğraflar/set-takim.jpg')">
+          <div class="cat-img"></div>
+          <h3>Set Takım</h3>
+          <span>Keşfet →</span>
+        </a>
+        <a href="#" class="cat-card" style="--img:url('fotoğraflar/kupeler.jpg')">
+          <div class="cat-img"></div>
+          <h3>Küpeler</h3>
+          <span>Keşfet →</span>
+        </a>
+        <a href="#" class="cat-card" style="--img:url('fotoğraflar/bileklikler.jpg')">
+          <div class="cat-img"></div>
+          <h3>Bileklikler</h3>
+          <span>Keşfet →</span>
+        </a>
+        <a href="#" class="cat-card" style="--img:url('fotoğraflar/pirlanta.jpg')">
+          <div class="cat-img"></div>
+          <h3>Pırlanta</h3>
+          <span>Keşfet →</span>
+        </a>
+        <a href="#" class="cat-card" style="--img:url('fotoğraflar/bilezikler.jpg')">
+          <div class="cat-img"></div>
+          <h3>Bilezikler</h3>
+          <span>Keşfet →</span>
+        </a>
+        <a href="#" class="cat-card" style="--img:url('fotoğraflar/ozel-tasarim.jpg')">
+          <div class="cat-img"></div>
+          <h3>Özel Tasarım</h3>
+          <span>Keşfet →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pırlanta vurgulu marketing band -->
+  <section class="banner-split" id="pirlanta">
+    <div class="banner-img" style="background-image:url('fotoğraflar/pirlanta-banner.jpg')"></div>
+    <div class="banner-text">
+      <span class="eyebrow">Koçak Pırlanta Satış Noktası</span>
+      <h2>Pırlantanın <em>en saf</em> hâliyle tanışın</h2>
+      <p>Koçak Pırlanta güvencesiyle sunduğumuz sertifikalı pırlanta koleksiyonu; her parıltıda bir hikâye, her tasarımda kusursuz işçilik.</p>
+      <a href="#iletisim" class="btn btn-primary">Randevu Al</a>
+    </div>
+  </section>
+
+  <!-- Marketing trio -->
+  <section class="section alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow dark">Neden Sadettin?</span>
+        <h2>Üç Nesildir Aynı Tutku</h2>
+      </div>
+      <div class="trio">
+        <div class="trio-card">
+          <div class="trio-icon">⚜</div>
+          <h3>Köklü Miras</h3>
+          <p>1943'ten bu yana Malatya'nın güvenilir kuyumcusu olarak değerlerimizi nesilden nesile aktarıyoruz.</p>
+        </div>
+        <div class="trio-card">
+          <div class="trio-icon">✦</div>
+          <h3>Usta İşçilik</h3>
+          <p>Her ürünümüz, geleneksel ustalık ile modern tasarımın buluştuğu özenli bir süreçte hayat buluyor.</p>
+        </div>
+        <div class="trio-card">
+          <div class="trio-icon">◈</div>
+          <h3>Sertifikalı Kalite</h3>
+          <p>Sunduğumuz tüm pırlantalar uluslararası geçerli sertifikalarla güvence altına alınmıştır.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="hakkimizda">
+    <div class="container about-grid">
+      <div class="about-img" style="background-image:url('fotoğraflar/magaza.jpg')"></div>
+      <div class="about-text">
+        <span class="eyebrow dark">Hakkımızda</span>
+        <h2>1943'ten Bugüne<br/>Sadettin Kuyumculuk</h2>
+        <p>Sadettin Kuyumculuk, 1943 yılında Malatya'da kurulmuş, üç neslin emeği ve tutkusuyla büyümüş köklü bir kuyumculuk markasıdır. Bugün Malatya Park AVM'deki mağazamızda; altın, pırlanta, yüzük, kolye, küpe ve set takım koleksiyonlarımızla siz değerli müşterilerimizi ağırlıyoruz.</p>
+        <p>Her parıltının bir hikâyesi olduğuna inanır, hayatınızın en özel anlarına eşlik etmekten gurur duyarız.</p>
+        <a href="#iletisim" class="btn btn-outline">Bize Ulaşın</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Contact -->
+  <footer class="footer" id="iletisim">
+    <div class="container footer-grid">
+      <div class="footer-col brand-col">
+        <img src="assets/logo.svg" alt="Sadettin Kuyumculuk" class="footer-logo"/>
+        <p>1943'ten bu yana Malatya'nın güvenilir kuyumcusu. Her parıltı bir hikâye.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com/sadettinkuyumculuk/" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>İletişim</h4>
+        <ul class="contact-list">
+          <li>📍 Malatya Park AVM<br/><small>Koçak Pırlanta Satış Noktası</small></li>
+          <li>☎ <a href="tel:+904223232336">0422 323 23 36</a></li>
+          <li>📷 <a href="https://www.instagram.com/sadettinkuyumculuk/" target="_blank" rel="noopener">@sadettinkuyumculuk</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Çalışma Saatleri</h4>
+        <ul class="hours-list">
+          <li><span>Pazartesi – Cumartesi</span><span>10:00 – 22:00</span></li>
+          <li><span>Pazar</span><span>10:00 – 22:00</span></li>
+        </ul>
+        <h4 style="margin-top:1.5rem">Hızlı Erişim</h4>
+        <ul class="quick-links">
+          <li><a href="#kategoriler">Ürünler</a></li>
+          <li><a href="#pirlanta">Pırlanta</a></li>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col map-col">
+        <h4>Lokasyon</h4>
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps?q=Malatya+Park+AVM&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+            title="Malatya Park AVM Konum"></iframe>
+        </div>
+        <a href="https://www.google.com/maps?q=Malatya+Park+AVM" target="_blank" rel="noopener" class="btn btn-outline small">Yol Tarifi Al</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <span>© 2026 Sadettin Kuyumculuk · Tüm hakları saklıdır.</span>
+        <span>Malatya · Türkiye</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
